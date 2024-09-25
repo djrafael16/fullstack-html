@@ -1,0 +1,44 @@
+
+h1
+{
+color: red;
+   
+}
+//id - apelido para estilizar a tag
+//class - apelido para estilizar a tag
+//tag - para estilizar a tag
+
+.caixa1
+{
+    color: yellow;
+    width: 200px;
+    height: 100px;
+    background-color: blueviolet;
+}
+
+
+
+//obs: o id tem prioridade sobre a class, exemplo abaixo
+#titulo
+{color: blue;}
+.nome
+{color: red;}
+
+section
+{
+    border: solid 2px;
+    .caixa2
+    {
+    
+    width: 400px;
+    height: 200px;
+    background-color: blue;
+        p{color: green;}
+    }
+   
+}
+*{
+    background-color: pink;
+}
+
+
