@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+    background-color: sienna;
+    height: 300px;
+
+    text-align: center;
+    img{
+        width: 200px;
+      }
+}
+
+article{
+
+  border: solid 2px saddlebrown;
+  width: 260px;
+  height: 300px;
+  background-color: sandybrown;
+  
+  margin-left: 550px; //obs o margin- tem opção de escolher a partir de onde será criada a margem. 
+  
+  // no margin sem traço ele coloca margem em todas as direções no sentido horário, cima, direita, baixo, esquerda. 
+  // ex margin: 10px(cima) 20px(direita) 10px(baixo) 20px(esquerda)
+  
+  padding: 40px 0 0 30px;  // e o espaçamento da margem interna da caixa
+  // assim como no margin o padding pode ser colocado a partir de uma direção ou em todas direções no sentido horário 
+  
+  img{
+    width: 200px;
+  }
+   
+   button {
+    background-color: sienna;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    color: white
+   }
+
+}
