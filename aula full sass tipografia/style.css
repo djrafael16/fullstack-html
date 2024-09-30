@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: burlywood;
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+}
+
+main img {
+  width: 100px;
+  display: block;
+}
+main div {
+  width: 100px;
+  height: 100px;
+  background-color: cadetblue;
+  border: solid 2px;
+  display: inline-block;
+}
+main article {
+  width: 100px;
+  height: 100px;
+}
+main p {
+  font-family: "Montserrat", sans-serif;
+}/*# sourceMappingURL=style.css.map */

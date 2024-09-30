@@ -1,0 +1,53 @@
+
+//@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');// maneira de importar a fonte sem usar o link no html
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; // se não utilizar o borde-box, ao realizar ajuste na caixa com padding etc... a caixa irá aumentar o tamanho, ficando diferente do que foi codado
+   // font-family: "Montserrat", sans-serif; // codigo para fonte do site, aqui será aplicada a todo site
+
+}
+
+header
+{
+
+    background-color: burlywood;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+
+}
+main{
+    
+    img
+    {
+        width: 100px;
+        display: block; // server para tirar as imagens que ficam em alinhadas uma do lado da outra para o uma em cima da outra 
+    }
+    div{
+        width: 100px;
+        height: 100px;
+        background-color: cadetblue;
+        border: solid 2px;
+        display: inline-block; // ao contrario do display block
+        //display: inline; // faz o mesmo que o inline-bock porém se adequa ao tamanho do texto 
+
+     }
+     article  // obs para chamar a tag a mesma deve estar apelidada com uma classo no arquivo html. 
+     {
+        width: 100px;
+        height: 100px;
+        // background-color: red;
+        // background-color: rgb(51, 35, 35);
+        // background-color: #743131;
+        //background-color: rgba(124, 0, 78, 0,909);
+     }
+    p{
+        font-family: "Montserrat", sans-serif; // código da fonte 
+    }
+    
+}
+
+
