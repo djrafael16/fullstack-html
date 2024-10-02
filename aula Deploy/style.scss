@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section
+{
+    p{
+        color: white;
+    
+    }
+    border: solid 2px black;
+    width:  750px;
+    height: 600px;
+    background-image: url("./assets/logo\ NetFlix.png");
+    // background-size: auto; // determina o tamanho da imagem 
+    background-repeat: no-repeat; // determina se a imagem será repetida dentro da caixa devido ao tamanho ou não 
+    background-size: cover; // se adequa ao tamanho da caixa, porém pode corta a imagem ainda 
+    //background-size: contain; // se adequa ao tamanho da caixa, porém não preeche a caixa afim de enviar que a imagem fique distoricida 
+    background-position: center; // posiciona a imagem 
+    
+}
