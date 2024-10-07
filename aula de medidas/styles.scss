@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    p{
+        //font-size: 20px;
+        font-size: rem; // equivale ao vw e vh para fontes, como o padrão do html e 16px um rem equivale 16px, e possílve resetar os px do rem
+        
+    }
+}
+
+.div1{
+    width: 400px;
+    height: 300px;
+    background-color: teal;    
+}
+.div2{
+    width: 40vw; // vw e vh e a medida relativa da caixa que faz com que a mesma acompanhe o tamanho da tela, vai de 0 a 100 
+    height: 30vh;
+    background-color: red;
+    div{
+
+    width: 60%; // com porcetagem, a caixa ira ocupar a porcetagem na caixa que ela ocupa
+    height: 80%;
+    background-color: yellow;
+    }
+}
