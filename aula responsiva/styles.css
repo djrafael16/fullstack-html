@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: cadetblue;
+}
+
+header {
+  border: solid 2px;
+  height: 20vh;
+}
+header ul {
+  display: flex;
+  width: 20vw;
+  justify-content: space-between;
+}
+
+@media (max-width: 700px) {
+  body {
+    background-color: red;
+  }
+}
+@media (min-width: 900px) {
+  body {
+    background-color: green;
+  }
+}
+@media (min-width: 300px) and (max-width: 800px) {
+  li {
+    font-size: 100px;
+  }
+}/*# sourceMappingURL=styles.css.map */
