@@ -2,81 +2,92 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-body {
-  font-family: Arial, sans-serif;
-  background-color: pink;
+  list-style: none;
+  text-decoration: none;
 }
 
 header {
-  background-color: palevioletred;
+  height: 15vh;
+  background-color: #FF69B4;
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 25vw;
+  display: flex;
   align-items: center;
   flex-direction: column;
+  color: white;
 }
-header img {
-  width: 20vw;
-  height: 20vh;
+.logo h1 {
+  font-size: 1.7vw;
+  font-weight: 400;
+}
+.logo img {
+  width: 15vw;
+  height: 15vh;
+}
+
+nav {
+  width: 40vw;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 1.2vw;
+}
+nav ul a {
+  color: white;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f51e8a;
+}
+main .box {
+  height: 120vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  color: white;
 }
 
 .sobre {
+  width: 80vw;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  align-items: end;
 }
 .sobre h2 {
-  display: flex;
-  justify-content: center;
-}
-
-h2 {
-  display: flex;
-  justify-content: center;
+  font-weight: 300;
+  font-size: 45px;
 }
 
 .eventos {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
-
-.palestra {
+.eventos article {
+  width: 22vw;
+  height: 30vw;
   display: flex;
   flex-direction: column;
-  font-size: 20px;
-  color: black;
-  justify-content: center;
-}
-.palestra img {
-  width: 20vw;
-  height: 20vh;
-}
-
-.caminhada {
-  display: flex;
-  flex-direction: column;
-  font-size: 20px;
-  color: black;
-  justify-content: center;
-}
-.caminhada img {
-  width: 20vw;
-  height: 20vh;
-}
-
-.exames {
-  display: flex;
-  flex-direction: column;
-  font-size: 20px;
-  color: black;
-  justify-content: center;
-}
-.exames img {
-  width: 20vw;
-  height: 20vh;
+  justify-content: space-evenly img;
+  justify-content-width: 22vw;
 }
 
 footer {
-  height: 100px;
+  background-color: #f51e8a;
+  height: 30vh;
   font-size: 10px;
+}
+footer div {
+  display: flex;
+  height: 20vh;
+  width: 20vw;
+  flex-direction: column;
 }/*# sourceMappingURL=style.css.map */
